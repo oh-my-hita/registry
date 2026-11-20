@@ -409,5 +409,213 @@
       "composeVersion": "1.6.8"
     }
   ],
-  "presets": []
+  "presets": [
+    {
+      "id": "hita-l-1.5.3",
+      "name": "HITA-L v1.5.3",
+      "version": "1",
+      "source": "HITA-L v1.5.3",
+      "minHostApi": 6,
+      "description": "当前基础预设：课表、教务、课程资源、个人主页与社区。",
+      "plugins": [
+        {
+          "id": "com.stupidtree.hitax.timetable",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hitax.eas",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hitax.resource",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hitax.user",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hita.theta",
+          "kind": "builtin"
+        }
+      ],
+      "repo": "https://github.com/LiPu-jpg/HITA_L"
+    },
+    {
+      "id": "hita-cute-1.6.0",
+      "name": "HITA CUTE v1.6.0",
+      "version": "1.6.0",
+      "source": "HITA_CUTE v1.6.0",
+      "minHostApi": 10,
+      "description": "HITA_L 的可可爱爱分支：保留课表、教务、课程资源、个人主页与社区，并加入自定义背景、20 套主题色和 6 组课表配色。",
+      "plugins": [
+        {
+          "id": "com.stupidtree.hitax.timetable",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hitax.eas",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hitax.resource",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hitax.user",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hita.theta",
+          "kind": "builtin"
+        }
+      ],
+      "repo": "https://github.com/Zethpa/HITA_CUTE",
+      "tags": [
+        "HITA",
+        "HITA_CUTE",
+        "整合包"
+      ]
+    },
+    {
+      "id": "hita-android-3.1.2",
+      "name": "HITA Android 3.1.2 复刻",
+      "version": "0.1",
+      "source": "HITA_Android v3.1.2",
+      "minHostApi": 7,
+      "description": "按市场插件复刻 HITA_Android v3.1.2；底栏按上游固定为 待办/今日/时间表/助手/资讯/更多。资讯位用 HOA 资讯源（θ 社区后端当前不可用）；不采集用量统计。",
+      "plugins": [
+        {
+          "id": "com.stupidtree.hitax.timetable",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hitax.eas",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hitax.resource",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hitax.user",
+          "kind": "builtin"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.homework",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.reminder",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.news",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.links",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.appearance",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.ai",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.credit",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.share",
+          "kind": "ui",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hita.ui.score",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.training",
+          "kind": "ui",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hita.ui.compare",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.group",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.live",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.update",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.notice",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.announcement",
+          "kind": "ui",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hita.ui.community",
+          "kind": "ui",
+          "required": false
+        }
+      ],
+      "migration": [
+        "timetable.ics"
+      ],
+      "repo": "https://github.com/HIT-A/HITA_Android",
+      "tabs": [
+        {
+          "id": "com.stupidtree.hita.ui.homework",
+          "title": "待办",
+          "order": 0,
+          "iconAsset": "builtin:check"
+        },
+        {
+          "id": "hita.timeline",
+          "title": "今日",
+          "order": 1,
+          "iconAsset": "builtin:today"
+        },
+        {
+          "id": "hita.timetable",
+          "title": "时间表",
+          "order": 2,
+          "iconAsset": "builtin:timetable"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.ai",
+          "title": "助手",
+          "order": 3,
+          "iconAsset": "builtin:toys"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.news",
+          "title": "资讯",
+          "order": 4,
+          "iconAsset": "builtin:blog"
+        },
+        {
+          "id": "hita.more",
+          "title": "更多",
+          "order": 5,
+          "iconAsset": "builtin:navigation"
+        }
+      ]
+    }
+  ]
 }
