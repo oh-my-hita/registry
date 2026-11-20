@@ -376,10 +376,10 @@
     {
       "id": "com.stupidtree.hita.ui.resource",
       "name": "课程资源",
-      "version": "0.1.0",
-      "url": "https://github.com/oh-my-hita/ui-resource/releases/download/v0.1.0/plugin.apk",
-      "sha256": "c8e7a84d8dde9b8b59b891ea7eaf7b2ec358e36ccc8742ea4b9c42df64d96c6b",
-      "size": 819597,
+      "version": "0.1.1",
+      "url": "https://github.com/oh-my-hita/ui-resource/releases/download/v0.1.1/plugin.apk",
+      "sha256": "13681d9125933524450b8022f524f4e23c347c86225f0fb6f5d5665bcd823ec8",
+      "size": 819657,
       "minHostApi": 10,
       "description": "OH-MY-HITA 官方界面插件",
       "author": "OH-MY-HITA",
@@ -391,7 +391,14 @@
       "capabilities": [
         "hita.ui.resource"
       ],
-      "composeVersion": "1.6.8"
+      "composeVersion": "1.6.8",
+      "mainTabs": [
+        {
+          "id": "resource",
+          "title": "课程资源",
+          "order": 30
+        }
+      ]
     },
     {
       "id": "com.stupidtree.hita.ui.score",
