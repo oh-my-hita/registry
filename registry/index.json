@@ -1,0 +1,367 @@
+{
+  "plugins": [],
+  "uiPlugins": [
+    {
+      "id": "com.stupidtree.hita.ui.ai",
+      "name": "AI 助手",
+      "version": "0.11.2",
+      "url": "https://github.com/oh-my-hita/ui-ai/releases/download/v0.11.2/ui-plugin-debug.apk",
+      "sha256": "17abc31c2c7ab0137928f778e8214e0d4a38d56428d48d4db35c68100c2322b1",
+      "size": 855249,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-ai",
+      "capabilities": [
+        "hita.ui.ai"
+      ],
+      "mainTabs": [
+        {
+          "id": "ai",
+          "title": "AI",
+          "order": 10
+        }
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.announcement",
+      "name": "公告",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/ui-announcement/releases/download/v0.1.0/ui-plugin-debug.apk",
+      "sha256": "966ef3cbb9ea039511e9667a3ec00e6621ffb6df36c484c9c1aa82453095679b",
+      "size": 820606,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-announcement",
+      "capabilities": [
+        "hita.ui.announcement"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.appearance",
+      "name": "外观与字体",
+      "version": "0.1.2",
+      "url": "https://github.com/oh-my-hita/ui-appearance/releases/download/v0.1.2/ui-plugin-debug.apk",
+      "sha256": "d6ba1680c9c5f2323b17b1ece47088f7a0fe4877b421afb24c10faad7c1dbdd4",
+      "size": 814191,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-appearance",
+      "capabilities": [
+        "hita.ui.appearance"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.community",
+      "name": "深圳课程浏览",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/ui-community/releases/download/v0.1.0/ui-plugin-debug.apk",
+      "sha256": "5d527fc8d22bd6bb7002679387cd076b58e86680025af8707e88d1984b148bf9",
+      "size": 831313,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-community",
+      "capabilities": [
+        "hita.ui.community"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.compare",
+      "name": "课表对比",
+      "version": "0.1.1",
+      "url": "https://github.com/oh-my-hita/ui-compare/releases/download/v0.1.1/ui-plugin-debug.apk",
+      "sha256": "3b11d00d6de4757388a159ca2f42ad1928709e6ffcbc114798b094680f0bba30",
+      "size": 816127,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-compare",
+      "capabilities": [
+        "hita.ui.compare"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.credit",
+      "name": "学分统计",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/ui-credit/releases/download/v0.1.0/ui-plugin-debug.apk",
+      "sha256": "2714796e47edaf91bd8e5ddca0423e28b363535e6739cfc3804c0825f66c12bd",
+      "size": 811879,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-credit",
+      "capabilities": [
+        "hita.ui.credit"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.group",
+      "name": "课表组合",
+      "version": "0.1.1",
+      "url": "https://github.com/oh-my-hita/ui-group/releases/download/v0.1.1/ui-plugin-debug.apk",
+      "sha256": "0ff113ceede70056019fe2d85ded67105114ad6c938b9d6a891af72312bc37de",
+      "size": 823558,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-group",
+      "capabilities": [
+        "hita.ui.group"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.homework",
+      "name": "作业",
+      "version": "0.1.1",
+      "url": "https://github.com/oh-my-hita/ui-homework/releases/download/v0.1.1/ui-plugin-debug.apk",
+      "sha256": "f416b7912f5381695deaf2d47017ebd37dfce53518a3fc0f4ae7b65f1c081c35",
+      "size": 825056,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-homework",
+      "capabilities": [
+        "hita.ui.homework"
+      ],
+      "mainTabs": [
+        {
+          "id": "homework",
+          "title": "作业",
+          "order": 5
+        }
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.links",
+      "name": "实用网址",
+      "version": "0.1.1",
+      "url": "https://github.com/oh-my-hita/ui-links/releases/download/v0.1.1/ui-plugin-debug.apk",
+      "sha256": "807922f895f083543fcc858487eb1b2510f46b85d06c5b0453197e9341a00028",
+      "size": 806750,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-links",
+      "capabilities": [
+        "hita.ui.links"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.live",
+      "name": "直播课",
+      "version": "0.2.0",
+      "url": "https://github.com/oh-my-hita/ui-live/releases/download/v0.2.0/ui-plugin-debug.apk",
+      "sha256": "84459182ec9a864dc0a9b48d39e4b6ea549e1275b644061f2cc17525795451a3",
+      "size": 813551,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-live",
+      "capabilities": [
+        "hita.ui.live"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.news",
+      "name": "资讯",
+      "version": "0.1.3",
+      "url": "https://github.com/oh-my-hita/ui-news/releases/download/v0.1.3/ui-plugin-debug.apk",
+      "sha256": "5a86df0d87a1a01c7d5f32dcf2c7ec3ee2e5fcf3e19df80f3c2fedcdc52c8145",
+      "size": 821434,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-news",
+      "capabilities": [
+        "hita.ui.news"
+      ],
+      "mainTabs": [
+        {
+          "id": "news",
+          "title": "资讯",
+          "order": 20
+        }
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.notice",
+      "name": "校园通知",
+      "version": "0.1.1",
+      "url": "https://github.com/oh-my-hita/ui-notice/releases/download/v0.1.1/ui-plugin-debug.apk",
+      "sha256": "8256521d7eb713b36e522c3e67aa57315a05a49dca75e632f20e9db4560bc5ad",
+      "size": 825104,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-notice",
+      "capabilities": [
+        "hita.ui.notice"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.reminder",
+      "name": "上课提醒",
+      "version": "0.1.2",
+      "url": "https://github.com/oh-my-hita/ui-reminder/releases/download/v0.1.2/ui-plugin-debug.apk",
+      "sha256": "ad38cf2fd00a4090afbb0c463430b0eaf606bcb499dd077ace16968fff76c327",
+      "size": 817010,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-reminder",
+      "capabilities": [
+        "hita.ui.reminder"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.score",
+      "name": "成绩分析",
+      "version": "0.1.1",
+      "url": "https://github.com/oh-my-hita/ui-score/releases/download/v0.1.1/ui-plugin-debug.apk",
+      "sha256": "c99b3b279ab3a01a87b8465d48487bc9a363aed5d7840101f0ad91beb63c43d4",
+      "size": 809803,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-score",
+      "capabilities": [
+        "hita.ui.score"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.share",
+      "name": "课表分享",
+      "version": "0.2.3",
+      "url": "https://github.com/oh-my-hita/ui-share/releases/download/v0.2.3/ui-plugin-debug.apk",
+      "sha256": "5a9d7a98b3bbdce715d70deb5456ee6fcd6857e9bf51da3d8a292acb35cb00ad",
+      "size": 858785,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-share",
+      "capabilities": [
+        "hita.ui.share"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.training",
+      "name": "培养方案",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/ui-training/releases/download/v0.1.0/ui-plugin-debug.apk",
+      "sha256": "0cdd74a828ec51de10cccfd30812ecc6ff167a445c15506fba0893903d29535c",
+      "size": 815151,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-training",
+      "capabilities": [
+        "hita.ui.training"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.update",
+      "name": "应用更新",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/ui-update/releases/download/v0.1.0/ui-plugin-debug.apk",
+      "sha256": "21e75f52ea2ad013b42502e12dd385ebb2bf37068756106a06170020c9360c35",
+      "size": 810357,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-update",
+      "capabilities": [
+        "hita.ui.update"
+      ],
+      "composeVersion": "1.6.8"
+    }
+  ],
+  "presets": []
+}
