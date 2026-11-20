@@ -1,5 +1,24 @@
 {
-  "plugins": [],
+  "plugins": [
+    {
+      "id": "com.stupidtree.hitax.timetable",
+      "name": "课表核心",
+      "version": "0.1.0",
+      "apiVersion": 11,
+      "url": "https://github.com/oh-my-hita/timetable-core/releases/download/v0.1.0/timetable-core.dex",
+      "sha256": "aa3010e39b6b1bf46d2e23f2a1da9043a103b4bbc621422c0062daae51e9df08",
+      "entryClass": "com.stupidtree.hitax.plugin.TimetableCorePlugin",
+      "minHostApi": 11,
+      "description": "T1 课表核心：数据库、ICS、同步与 TimetableService，无 UI。",
+      "author": "OH-MY-HITA",
+      "repo": "https://github.com/oh-my-hita/timetable-core",
+      "tags": [
+        "HITA",
+        "official",
+        "T1"
+      ]
+    }
+  ],
   "uiPlugins": [
     {
       "id": "com.stupidtree.hita.ui.ai",
