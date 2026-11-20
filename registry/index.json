@@ -342,6 +342,33 @@
       "composeVersion": "1.6.8"
     },
     {
+      "id": "com.stupidtree.hita.ui.timetable",
+      "name": "课表",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/ui-timetable/releases/download/v0.1.0/plugin.apk",
+      "sha256": "6413e0fc7977d5fc181570aaea4b2026ea37001725eef084ede41f436a593bb5",
+      "size": 819083,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-timetable",
+      "capabilities": [
+        "hita.ui.timetable"
+      ],
+      "mainTabs": [
+        {
+          "id": "timetable",
+          "title": "课表",
+          "order": 0
+        }
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
       "id": "com.stupidtree.hita.ui.training",
       "name": "培养方案",
       "version": "0.1.0",
