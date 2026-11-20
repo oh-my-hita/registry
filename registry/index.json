@@ -78,10 +78,10 @@
       "version": "0.1.0",
       "apiVersion": 11,
       "url": "https://github.com/oh-my-hita/eas-core/releases/download/v0.1.0/eas-core.dex",
-      "sha256": "4677e5796af87d8d7f8b2c313b8aa8ed0f8c0d64b3be52736e5b80a8b8f0ab74",
+      "sha256": "19ba82e5c00caf36393d524c34d4dce2a06b6d0be2f498c39c4c7051d34d92ec",
       "entryClass": "com.stupidtree.hitax.plugin.EasCorePlugin",
       "minHostApi": 11,
-      "description": "T1 教务核心 preview（考试备忘录）",
+      "description": "T1 教务考试备忘录 preview",
       "author": "OH-MY-HITA",
       "repo": "https://github.com/oh-my-hita/eas-core",
       "tags": [
