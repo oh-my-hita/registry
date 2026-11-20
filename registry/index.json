@@ -71,6 +71,24 @@
         "official",
         "T1"
       ]
+    },
+    {
+      "id": "com.stupidtree.hitax.eas",
+      "name": "教务核心",
+      "version": "0.1.0",
+      "apiVersion": 11,
+      "url": "https://github.com/oh-my-hita/eas-core/releases/download/v0.1.0/eas-core.dex",
+      "sha256": "4677e5796af87d8d7f8b2c313b8aa8ed0f8c0d64b3be52736e5b80a8b8f0ab74",
+      "entryClass": "com.stupidtree.hitax.plugin.EasCorePlugin",
+      "minHostApi": 11,
+      "description": "T1 教务核心 preview（考试备忘录）",
+      "author": "OH-MY-HITA",
+      "repo": "https://github.com/oh-my-hita/eas-core",
+      "tags": [
+        "HITA",
+        "official",
+        "T1"
+      ]
     }
   ],
   "uiPlugins": [
@@ -532,6 +550,33 @@
           "id": "theta",
           "title": "社区",
           "order": 50
+        }
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.eas",
+      "name": "教务",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/ui-eas/releases/download/v0.1.0/plugin.apk",
+      "sha256": "eb52fa9c8653df236ff4af681c8523aed3551e9646dd4e1582d8851d96566a84",
+      "size": 814019,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件 preview",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-eas",
+      "capabilities": [
+        "hita.ui.eas"
+      ],
+      "mainTabs": [
+        {
+          "id": "eas",
+          "title": "教务",
+          "order": 60
         }
       ],
       "composeVersion": "1.6.8"
