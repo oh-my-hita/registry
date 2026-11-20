@@ -588,28 +588,58 @@
       "name": "HITA-L v1.5.3",
       "version": "1",
       "source": "HITA-L v1.5.3",
-      "minHostApi": 6,
+      "minHostApi": 11,
       "description": "当前基础预设：课表、教务、课程资源、个人主页与社区。",
       "plugins": [
         {
           "id": "com.stupidtree.hitax.timetable",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.timetable",
+          "kind": "ui",
+          "required": true
         },
         {
           "id": "com.stupidtree.hitax.eas",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.eas",
+          "kind": "ui",
+          "required": true
         },
         {
           "id": "com.stupidtree.hitax.resource",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.resource",
+          "kind": "ui",
+          "required": true
         },
         {
           "id": "com.stupidtree.hitax.user",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
         },
         {
-          "id": "com.stupidtree.hita.theta",
-          "kind": "builtin"
+          "id": "com.stupidtree.hita.ui.user",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.theta",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.theta",
+          "kind": "ui",
+          "required": true
         }
       ],
       "repo": "https://github.com/LiPu-jpg/HITA_L"
@@ -619,28 +649,58 @@
       "name": "HITA CUTE v1.6.0",
       "version": "1.6.0",
       "source": "HITA_CUTE v1.6.0",
-      "minHostApi": 10,
+      "minHostApi": 11,
       "description": "HITA_L 的可可爱爱分支：保留课表、教务、课程资源、个人主页与社区，并加入自定义背景、20 套主题色和 6 组课表配色。",
       "plugins": [
         {
           "id": "com.stupidtree.hitax.timetable",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.timetable",
+          "kind": "ui",
+          "required": true
         },
         {
           "id": "com.stupidtree.hitax.eas",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.eas",
+          "kind": "ui",
+          "required": true
         },
         {
           "id": "com.stupidtree.hitax.resource",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.resource",
+          "kind": "ui",
+          "required": true
         },
         {
           "id": "com.stupidtree.hitax.user",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
         },
         {
-          "id": "com.stupidtree.hita.theta",
-          "kind": "builtin"
+          "id": "com.stupidtree.hita.ui.user",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.theta",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.theta",
+          "kind": "ui",
+          "required": true
         }
       ],
       "repo": "https://github.com/Zethpa/HITA_CUTE",
@@ -655,24 +715,48 @@
       "name": "HITA Android 3.1.2 复刻",
       "version": "0.1",
       "source": "HITA_Android v3.1.2",
-      "minHostApi": 7,
+      "minHostApi": 11,
       "description": "按市场插件复刻 HITA_Android v3.1.2；底栏按上游固定为 待办/今日/时间表/助手/资讯/更多。资讯位用 HOA 资讯源（θ 社区后端当前不可用）；不采集用量统计。",
       "plugins": [
         {
           "id": "com.stupidtree.hitax.timetable",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.timetable",
+          "kind": "ui",
+          "required": true
         },
         {
           "id": "com.stupidtree.hitax.eas",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.eas",
+          "kind": "ui",
+          "required": true
         },
         {
           "id": "com.stupidtree.hitax.resource",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.resource",
+          "kind": "ui",
+          "required": true
         },
         {
           "id": "com.stupidtree.hitax.user",
-          "kind": "builtin"
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.user",
+          "kind": "ui",
+          "required": true
         },
         {
           "id": "com.stupidtree.hita.ui.homework",
@@ -765,7 +849,7 @@
           "iconAsset": "builtin:today"
         },
         {
-          "id": "hita.timetable",
+          "id": "com.stupidtree.hita.ui.timetable",
           "title": "时间表",
           "order": 2,
           "iconAsset": "builtin:timetable"
