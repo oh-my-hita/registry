@@ -17,6 +17,24 @@
         "official",
         "T1"
       ]
+    },
+    {
+      "id": "com.stupidtree.hitax.resource",
+      "name": "课程资源核心",
+      "version": "0.1.0",
+      "apiVersion": 11,
+      "url": "https://github.com/oh-my-hita/resource-core/releases/download/v0.1.0/resource-core.dex",
+      "sha256": "7401052726ffcd75bee351b608932f3903cc6e1b511cbfd8ce7191e7ad4bf418",
+      "entryClass": "com.stupidtree.hitax.plugin.ResourceCorePlugin",
+      "minHostApi": 11,
+      "description": "T1 课程资源/教师数据核心",
+      "author": "OH-MY-HITA",
+      "repo": "https://github.com/oh-my-hita/resource-core",
+      "tags": [
+        "HITA",
+        "official",
+        "T1"
+      ]
     }
   ],
   "uiPlugins": [
@@ -298,6 +316,26 @@
       "repo": "https://github.com/oh-my-hita/ui-reminder",
       "capabilities": [
         "hita.ui.reminder"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.resource",
+      "name": "课程资源",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/ui-resource/releases/download/v0.1.0/plugin.apk",
+      "sha256": "c8e7a84d8dde9b8b59b891ea7eaf7b2ec358e36ccc8742ea4b9c42df64d96c6b",
+      "size": 819597,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-resource",
+      "capabilities": [
+        "hita.ui.resource"
       ],
       "composeVersion": "1.6.8"
     },
