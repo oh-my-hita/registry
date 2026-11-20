@@ -35,6 +35,42 @@
         "official",
         "T1"
       ]
+    },
+    {
+      "id": "com.stupidtree.hitax.user",
+      "name": "个人主页核心",
+      "version": "0.1.0",
+      "apiVersion": 11,
+      "url": "https://github.com/oh-my-hita/user-core/releases/download/v0.1.0/user-core.dex",
+      "sha256": "9878200eceb94080d6ea5914bbe76fd3e3eec693020aa57bf2d23291a329addf",
+      "entryClass": "com.stupidtree.hitax.plugin.UserCorePlugin",
+      "minHostApi": 11,
+      "description": "T1 本地用户会话 preview",
+      "author": "OH-MY-HITA",
+      "repo": "https://github.com/oh-my-hita/user-core",
+      "tags": [
+        "HITA",
+        "official",
+        "T1"
+      ]
+    },
+    {
+      "id": "com.stupidtree.hitax.theta",
+      "name": "社区话题核心",
+      "version": "0.1.0",
+      "apiVersion": 11,
+      "url": "https://github.com/oh-my-hita/theta-core/releases/download/v0.1.0/timetable-core.dex",
+      "sha256": "a4cfbd1a8d07e2673f5ce003ff79987ca6db82abe56539ff640ef42d3cefea25",
+      "entryClass": "com.stupidtree.hitax.plugin.ThetaCorePlugin",
+      "minHostApi": 11,
+      "description": "T1 社区话题数据核心 preview",
+      "author": "OH-MY-HITA",
+      "repo": "https://github.com/oh-my-hita/theta-core",
+      "tags": [
+        "HITA",
+        "official",
+        "T1"
+      ]
     }
   ],
   "uiPlugins": [
@@ -443,6 +479,60 @@
       "repo": "https://github.com/oh-my-hita/ui-update",
       "capabilities": [
         "hita.ui.update"
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.user",
+      "name": "个人主页",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/ui-user/releases/download/v0.1.0/plugin.apk",
+      "sha256": "a1b1573f83670b78d6c8f4afa54e7639ddf7b40434c46c33080db44e54dfca6b",
+      "size": 810305,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件 preview",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-user",
+      "capabilities": [
+        "hita.ui.profile"
+      ],
+      "mainTabs": [
+        {
+          "id": "profile",
+          "title": "我的",
+          "order": 40
+        }
+      ],
+      "composeVersion": "1.6.8"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.theta",
+      "name": "社区",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/ui-theta/releases/download/v0.1.0/plugin.apk",
+      "sha256": "be17aa506fc9eaff303a0d17f1d1cda8d42eaf24e890e986547e0bab92b89afb",
+      "size": 814010,
+      "minHostApi": 10,
+      "description": "OH-MY-HITA 官方界面插件 preview",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official"
+      ],
+      "repo": "https://github.com/oh-my-hita/ui-theta",
+      "capabilities": [
+        "hita.ui.theta"
+      ],
+      "mainTabs": [
+        {
+          "id": "theta",
+          "title": "社区",
+          "order": 50
+        }
       ],
       "composeVersion": "1.6.8"
     }
