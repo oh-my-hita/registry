@@ -39,10 +39,10 @@
     {
       "id": "com.stupidtree.hitax.user",
       "name": "个人主页核心",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "apiVersion": 11,
-      "url": "https://github.com/oh-my-hita/user-core/releases/download/v0.1.0/user-core.dex",
-      "sha256": "9878200eceb94080d6ea5914bbe76fd3e3eec693020aa57bf2d23291a329addf",
+      "url": "https://github.com/oh-my-hita/user-core/releases/download/v0.1.1/user-core.dex",
+      "sha256": "de481603c1b6b8f432cfbc6b9957bd8366f7058cd293c4fbb26b124b86af6b78",
       "entryClass": "com.stupidtree.hitax.plugin.UserCorePlugin",
       "minHostApi": 11,
       "description": "T1 本地用户会话 preview",
