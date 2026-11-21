@@ -57,10 +57,10 @@
     {
       "id": "com.stupidtree.hitax.theta",
       "name": "社区话题核心",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "apiVersion": 11,
-      "url": "https://github.com/oh-my-hita/theta-core/releases/download/v0.1.2/theta-core.dex",
-      "sha256": "ed88e3687dd70204c87953fd9b76a542621e4e1271a66ecb567caaacd00d3f70",
+      "url": "https://github.com/oh-my-hita/theta-core/releases/download/v0.1.3/theta-core.dex",
+      "sha256": "d73d96fa10ef1cd9a848e452b34a6fe7429b5794c51314edc03194d6451c1fe2",
       "entryClass": "com.stupidtree.hitax.plugin.ThetaCorePlugin",
       "minHostApi": 11,
       "description": "T1 社区话题数据核心 preview",
@@ -71,7 +71,7 @@
         "official",
         "T1"
       ],
-      "size": 58472
+      "size": 59284
     },
     {
       "id": "com.stupidtree.hitax.eas",
