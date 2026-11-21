@@ -403,10 +403,10 @@
     {
       "id": "com.stupidtree.hita.ui.resource",
       "name": "课程资源（运行时）",
-      "version": "0.4.9",
-      "url": "https://github.com/oh-my-hita/ui-resource/releases/download/v0.4.9/plugin.apk",
-      "sha256": "7c4a1cd01bcc03dd04e02936c6ad139a69b44eea0098085dd31656811dfdab30",
-      "size": 915776,
+      "version": "0.4.10",
+      "url": "https://github.com/oh-my-hita/ui-resource/releases/download/v0.4.10/plugin.apk",
+      "sha256": "a45d4e8b56ddcf613283ba09ed1d2468876229432c16e13b87e3b6b1e993291c",
+      "size": 915816,
       "minHostApi": 10,
       "description": "OH-MY-HITA 官方界面插件",
       "author": "OH-MY-HITA",
@@ -417,6 +417,13 @@
       "repo": "https://github.com/oh-my-hita/ui-resource",
       "capabilities": [
         "hita.ui.resourceSearch"
+      ],
+      "mainTabs": [
+        {
+          "id": "resource",
+          "title": "课程资源",
+          "order": 30
+        }
       ],
       "composeVersion": "1.9.4"
     },
