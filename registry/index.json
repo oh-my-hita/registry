@@ -1,17 +1,57 @@
 {
   "plugins": [
     {
-      "id": "com.stupidtree.hitax.timetable",
-      "name": "课表核心",
+      "id": "com.stupidtree.hita.plugin.campus",
+      "name": "校园服务",
       "version": "0.1.0",
-      "apiVersion": 11,
-      "url": "https://github.com/oh-my-hita/timetable-core/releases/download/v0.1.0/timetable-core.dex",
-      "sha256": "aa3010e39b6b1bf46d2e23f2a1da9043a103b4bbc621422c0062daae51e9df08",
-      "entryClass": "com.stupidtree.hitax.plugin.TimetableCorePlugin",
-      "minHostApi": 11,
-      "description": "T1 课表核心：数据库、ICS、同步与 TimetableService，无 UI。",
+      "apiVersion": 12,
+      "url": "https://github.com/oh-my-hita/registry/releases/download/plugins-0.10.3/plugin-campus.dex",
+      "sha256": "7995b6301d0a2396c0deec3d122c56db5e2fbdea731446a1a4c9f5698a6a8cff",
+      "size": 319608,
+      "entryClass": "com.stupidtree.hita.plugin.campus.CampusPlugin",
+      "minHostApi": 12,
+      "description": "T1 校园服务：校园卡、静音仓、图书馆智慧墙、实验中心。",
       "author": "OH-MY-HITA",
-      "repo": "https://github.com/oh-my-hita/timetable-core",
+      "tags": [
+        "HITA",
+        "official",
+        "T1",
+        "campus"
+      ],
+      "repo": "https://github.com/oh-my-hita/registry"
+    },
+    {
+      "id": "com.stupidtree.hita.plugin.todo",
+      "name": "待办聚合",
+      "version": "0.1.0",
+      "apiVersion": 12,
+      "url": "https://github.com/oh-my-hita/registry/releases/download/plugins-0.10.3/plugin-todo.dex",
+      "sha256": "66f90a0247775f7652573b6062066c7a3b2ef27a1b71ecca43fbe60f09ad27b6",
+      "size": 266792,
+      "entryClass": "com.stupidtree.hita.plugin.todo.TodoPlugin",
+      "minHostApi": 12,
+      "description": "T1 待办聚合：Grader 作业与 GeniusTA 导入。",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official",
+        "T1",
+        "todo"
+      ],
+      "repo": "https://github.com/oh-my-hita/registry"
+    },
+    {
+      "id": "com.stupidtree.hitax.eas",
+      "name": "教务核心",
+      "version": "0.3.0",
+      "apiVersion": 11,
+      "url": "https://github.com/oh-my-hita/eas-core/releases/download/v0.3.0/eas-core.dex",
+      "sha256": "331dca9887fef440c0975cad67bde747933d15ac7f8a367910ea00543164183c",
+      "entryClass": "com.stupidtree.hitax.plugin.EasCorePlugin",
+      "minHostApi": 11,
+      "description": "T1 教务 headless 核心（登录/成绩/考试/空教室/培养计划）",
+      "author": "OH-MY-HITA",
+      "repo": "https://github.com/oh-my-hita/eas-core",
       "tags": [
         "HITA",
         "official",
@@ -30,24 +70,6 @@
       "description": "T1 课程资源/教师数据核心",
       "author": "OH-MY-HITA",
       "repo": "https://github.com/oh-my-hita/resource-core",
-      "tags": [
-        "HITA",
-        "official",
-        "T1"
-      ]
-    },
-    {
-      "id": "com.stupidtree.hitax.user",
-      "name": "个人主页核心",
-      "version": "0.1.1",
-      "apiVersion": 11,
-      "url": "https://github.com/oh-my-hita/user-core/releases/download/v0.1.1/user-core.dex",
-      "sha256": "de481603c1b6b8f432cfbc6b9957bd8366f7058cd293c4fbb26b124b86af6b78",
-      "entryClass": "com.stupidtree.hitax.plugin.UserCorePlugin",
-      "minHostApi": 11,
-      "description": "T1 本地用户会话 preview",
-      "author": "OH-MY-HITA",
-      "repo": "https://github.com/oh-my-hita/user-core",
       "tags": [
         "HITA",
         "official",
@@ -74,17 +96,35 @@
       "size": 59284
     },
     {
-      "id": "com.stupidtree.hitax.eas",
-      "name": "教务核心",
-      "version": "0.3.0",
+      "id": "com.stupidtree.hitax.timetable",
+      "name": "课表核心",
+      "version": "0.1.0",
       "apiVersion": 11,
-      "url": "https://github.com/oh-my-hita/eas-core/releases/download/v0.3.0/eas-core.dex",
-      "sha256": "331dca9887fef440c0975cad67bde747933d15ac7f8a367910ea00543164183c",
-      "entryClass": "com.stupidtree.hitax.plugin.EasCorePlugin",
+      "url": "https://github.com/oh-my-hita/timetable-core/releases/download/v0.1.0/timetable-core.dex",
+      "sha256": "aa3010e39b6b1bf46d2e23f2a1da9043a103b4bbc621422c0062daae51e9df08",
+      "entryClass": "com.stupidtree.hitax.plugin.TimetableCorePlugin",
       "minHostApi": 11,
-      "description": "T1 教务 headless 核心（登录/成绩/考试/空教室/培养计划）",
+      "description": "T1 课表核心：数据库、ICS、同步与 TimetableService，无 UI。",
       "author": "OH-MY-HITA",
-      "repo": "https://github.com/oh-my-hita/eas-core",
+      "repo": "https://github.com/oh-my-hita/timetable-core",
+      "tags": [
+        "HITA",
+        "official",
+        "T1"
+      ]
+    },
+    {
+      "id": "com.stupidtree.hitax.user",
+      "name": "个人主页核心",
+      "version": "0.1.1",
+      "apiVersion": 11,
+      "url": "https://github.com/oh-my-hita/user-core/releases/download/v0.1.1/user-core.dex",
+      "sha256": "de481603c1b6b8f432cfbc6b9957bd8366f7058cd293c4fbb26b124b86af6b78",
+      "entryClass": "com.stupidtree.hitax.plugin.UserCorePlugin",
+      "minHostApi": 11,
+      "description": "T1 本地用户会话 preview",
+      "author": "OH-MY-HITA",
+      "repo": "https://github.com/oh-my-hita/user-core",
       "tags": [
         "HITA",
         "official",
@@ -159,6 +199,27 @@
         "hita.ui.appearance"
       ],
       "composeVersion": "1.9.4"
+    },
+    {
+      "id": "com.stupidtree.hita.ui.campus",
+      "name": "校园",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/registry/releases/download/plugins-0.10.3/plugin-campus-ui.apk",
+      "sha256": "cc655e36086f0850b4d501d1f1d4d878649089c5076d574837767d699697ed16",
+      "size": 1179070,
+      "minHostApi": 12,
+      "description": "校园卡、静音仓、图书馆与实验中心（3.3.x）",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official",
+        "campus"
+      ],
+      "capabilities": [
+        "hita.ui.campus"
+      ],
+      "composeVersion": "1.9.4",
+      "repo": "https://github.com/oh-my-hita/registry"
     },
     {
       "id": "com.stupidtree.hita.ui.community",
@@ -523,6 +584,27 @@
       "composeVersion": "1.9.4"
     },
     {
+      "id": "com.stupidtree.hita.ui.todo",
+      "name": "待办聚合",
+      "version": "0.1.0",
+      "url": "https://github.com/oh-my-hita/registry/releases/download/plugins-0.10.3/plugin-todo-ui.apk",
+      "sha256": "e6591fa8f70e7530a5f0c887200b5c836489c6b950fd4cb143a076dae1846604",
+      "size": 1022818,
+      "minHostApi": 12,
+      "description": "Grader 与 GeniusTA 合并待办（3.3.x）",
+      "author": "OH-MY-HITA",
+      "tags": [
+        "HITA",
+        "official",
+        "todo"
+      ],
+      "capabilities": [
+        "hita.ui.todo"
+      ],
+      "composeVersion": "1.9.4",
+      "repo": "https://github.com/oh-my-hita/registry"
+    },
+    {
       "id": "com.stupidtree.hita.ui.training",
       "name": "培养方案",
       "version": "0.1.1",
@@ -591,133 +673,6 @@
     }
   ],
   "presets": [
-    {
-      "id": "hita-l-1.5.3",
-      "name": "HITA-L v1.5.3",
-      "version": "1",
-      "source": "HITA-L v1.5.3",
-      "minHostApi": 11,
-      "description": "当前基础预设：课表、教务、课程资源、个人主页与社区。",
-      "plugins": [
-        {
-          "id": "com.stupidtree.hitax.timetable",
-          "kind": "dex",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hita.ui.timetable",
-          "kind": "ui",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hitax.eas",
-          "kind": "dex",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hita.ui.eas",
-          "kind": "ui",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hitax.resource",
-          "kind": "dex",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hita.ui.resource",
-          "kind": "ui",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hitax.user",
-          "kind": "dex",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hita.ui.user",
-          "kind": "ui",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hitax.theta",
-          "kind": "dex",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hita.ui.theta",
-          "kind": "ui",
-          "required": true
-        }
-      ],
-      "repo": "https://github.com/LiPu-jpg/HITA_L"
-    },
-    {
-      "id": "hita-cute-1.6.0",
-      "name": "HITA CUTE v1.6.0",
-      "version": "1.6.0",
-      "source": "HITA_CUTE v1.6.0",
-      "minHostApi": 11,
-      "description": "HITA_L 的可可爱爱分支：保留课表、教务、课程资源、个人主页与社区，并加入自定义背景、20 套主题色和 6 组课表配色。",
-      "plugins": [
-        {
-          "id": "com.stupidtree.hitax.timetable",
-          "kind": "dex",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hita.ui.timetable",
-          "kind": "ui",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hitax.eas",
-          "kind": "dex",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hita.ui.eas",
-          "kind": "ui",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hitax.resource",
-          "kind": "dex",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hita.ui.resource",
-          "kind": "ui",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hitax.user",
-          "kind": "dex",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hita.ui.user",
-          "kind": "ui",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hitax.theta",
-          "kind": "dex",
-          "required": true
-        },
-        {
-          "id": "com.stupidtree.hita.ui.theta",
-          "kind": "ui",
-          "required": true
-        }
-      ],
-      "repo": "https://github.com/Zethpa/HITA_CUTE",
-      "tags": [
-        "HITA",
-        "HITA_CUTE",
-        "整合包"
-      ]
-    },
     {
       "id": "hita-android-3.1.2",
       "name": "HITA Android 3.1.2",
@@ -881,6 +836,319 @@
           "iconAsset": "builtin:navigation"
         }
       ]
+    },
+    {
+      "id": "hita-android-3.3.1",
+      "name": "HITA Android 3.3.1",
+      "version": "3.3.1",
+      "source": "HITA_Android v3.3.1",
+      "minHostApi": 11,
+      "description": "HITA_Android v3.3.1 兼容整合包；已接入 AI 写操作确认，其余 3.3.x 功能逐步接入。",
+      "plugins": [
+        {
+          "id": "com.stupidtree.hitax.timetable",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.timetable",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.eas",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.eas",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.resource",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.resource",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.user",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.user",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.homework",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.reminder",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.news",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.links",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.appearance",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.ai",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.credit",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.share",
+          "kind": "ui",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hita.ui.score",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.training",
+          "kind": "ui",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hita.ui.compare",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.group",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.live",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.update",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.notice",
+          "kind": "ui"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.announcement",
+          "kind": "ui",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hita.ui.community",
+          "kind": "ui",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hita.plugin.campus",
+          "kind": "dex",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hita.plugin.todo",
+          "kind": "dex",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hita.ui.todo",
+          "kind": "ui",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hita.ui.campus",
+          "kind": "ui",
+          "required": false
+        }
+      ],
+      "migration": [
+        "timetable.ics"
+      ],
+      "repo": "https://github.com/HIT-A/HITA_Android",
+      "tabs": [
+        {
+          "id": "com.stupidtree.hita.ui.homework",
+          "title": "待办",
+          "order": 0,
+          "iconAsset": "builtin:check"
+        },
+        {
+          "id": "hita.timeline",
+          "title": "今日",
+          "order": 1,
+          "iconAsset": "builtin:today"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.timetable",
+          "title": "时间表",
+          "order": 2,
+          "iconAsset": "builtin:timetable"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.ai",
+          "title": "助手",
+          "order": 3,
+          "iconAsset": "builtin:toys"
+        },
+        {
+          "id": "com.stupidtree.hita.ui.news",
+          "title": "资讯",
+          "order": 4,
+          "iconAsset": "builtin:blog"
+        },
+        {
+          "id": "hita.more",
+          "title": "更多",
+          "order": 5,
+          "iconAsset": "builtin:navigation"
+        }
+      ],
+      "family": "hita-android",
+      "shell": "hita-android-3.3.1"
+    },
+    {
+      "id": "hita-cute-1.6.0",
+      "name": "HITA CUTE v1.6.0",
+      "version": "1.6.0",
+      "source": "HITA_CUTE v1.6.0",
+      "minHostApi": 11,
+      "description": "HITA_L 的可可爱爱分支：保留课表、教务、课程资源、个人主页与社区，并加入自定义背景、20 套主题色和 6 组课表配色。",
+      "plugins": [
+        {
+          "id": "com.stupidtree.hitax.timetable",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.timetable",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.eas",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.eas",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.resource",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.resource",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.user",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.user",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.theta",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.theta",
+          "kind": "ui",
+          "required": true
+        }
+      ],
+      "repo": "https://github.com/Zethpa/HITA_CUTE",
+      "tags": [
+        "HITA",
+        "HITA_CUTE",
+        "整合包"
+      ]
+    },
+    {
+      "id": "hita-l-1.5.3",
+      "name": "HITA-L v1.5.3",
+      "version": "1",
+      "source": "HITA-L v1.5.3",
+      "minHostApi": 11,
+      "description": "当前基础预设：课表、教务、课程资源、个人主页与社区。",
+      "plugins": [
+        {
+          "id": "com.stupidtree.hitax.timetable",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.timetable",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.eas",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.eas",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.resource",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.resource",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.user",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.user",
+          "kind": "ui",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hitax.theta",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.ui.theta",
+          "kind": "ui",
+          "required": true
+        }
+      ],
+      "repo": "https://github.com/LiPu-jpg/HITA_L"
     },
     {
       "id": "hita-lite-2.0",
