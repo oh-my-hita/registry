@@ -73,13 +73,18 @@ def main() -> None:
     entries.sort(key=lambda x: x["id"])
     path = Path("registry/index.json")
     old = json.loads(path.read_text()) if path.exists() else {}
+    # 手工维护的 UI 条目（例如来自宿主 release 的 3.3.x 插件）不随 ui-* 刷新丢失。
+    manual = [e for e in old.get("uiPlugins", []) if e.get("manual")]
+    auto_ids = {e["id"] for e in entries}
+    entries.extend(e for e in manual if e["id"] not in auto_ids)
+    entries.sort(key=lambda x: x["id"])
     index = {
         "plugins": old.get("plugins", []),
         "uiPlugins": entries,
         "presets": old.get("presets", []),
     }
     path.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n")
-    print(f"wrote {len(entries)} UI plugins")
+    print(f"wrote {len(entries)} UI plugins ({len(manual)} manual)")
 
 
 if __name__ == "__main__":

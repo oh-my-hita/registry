@@ -219,7 +219,8 @@
         "hita.ui.campus"
       ],
       "composeVersion": "1.9.4",
-      "repo": "https://github.com/oh-my-hita/registry"
+      "repo": "https://github.com/oh-my-hita/registry",
+      "manual": true
     },
     {
       "id": "com.stupidtree.hita.ui.community",
@@ -602,7 +603,8 @@
         "hita.ui.todo"
       ],
       "composeVersion": "1.9.4",
-      "repo": "https://github.com/oh-my-hita/registry"
+      "repo": "https://github.com/oh-my-hita/registry",
+      "manual": true
     },
     {
       "id": "com.stupidtree.hita.ui.training",
