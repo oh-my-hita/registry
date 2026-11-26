@@ -43,12 +43,12 @@
     {
       "id": "com.stupidtree.hitax.eas",
       "name": "教务核心",
-      "version": "0.3.0",
-      "apiVersion": 11,
-      "url": "https://github.com/oh-my-hita/eas-core/releases/download/v0.3.0/eas-core.dex",
-      "sha256": "331dca9887fef440c0975cad67bde747933d15ac7f8a367910ea00543164183c",
+      "version": "0.3.4",
+      "apiVersion": 13,
+      "url": "https://github.com/oh-my-hita/eas-core/releases/download/v0.3.4/eas-core.dex",
+      "sha256": "e0da478a9447f540802e3058850d9b2a7ec8151e7f5a0b3115ce01bf63e9e711",
       "entryClass": "com.stupidtree.hitax.plugin.EasCorePlugin",
-      "minHostApi": 11,
+      "minHostApi": 13,
       "description": "T1 教务 headless 核心（登录/成绩/考试/空教室/培养计划）",
       "author": "OH-MY-HITA",
       "repo": "https://github.com/oh-my-hita/eas-core",
@@ -1178,6 +1178,49 @@
           "required": true
         }
       ]
+    },
+    {
+      "id": "hita-replica-cakeni",
+      "name": "晴课表",
+      "version": "0.1",
+      "source": "cakeni/CourseSchedule",
+      "minHostApi": 13,
+      "description": "完整 cakeni 风格 Shell：课表/待办/导入/设置；Compose 重写，数据复用 HITA 服务。",
+      "shell": "hita-replica-cakeni",
+      "plugins": [
+        {
+          "id": "com.stupidtree.hitax.timetable",
+          "kind": "dex",
+          "required": true
+        },
+        {
+          "id": "com.stupidtree.hita.plugin.todo",
+          "kind": "dex",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hitax.eas",
+          "kind": "dex",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hitax.resource",
+          "kind": "dex",
+          "required": false
+        },
+        {
+          "id": "com.stupidtree.hitax.user",
+          "kind": "dex",
+          "required": false
+        }
+      ],
+      "tags": [
+        "replica",
+        "cakeni",
+        "timetable",
+        "preview"
+      ],
+      "author": "OH-MY-HITA"
     }
   ]
 }
